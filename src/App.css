@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'system-ui';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+main p {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main img {
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
